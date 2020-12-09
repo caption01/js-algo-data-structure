@@ -2,8 +2,6 @@ function numCompaer(num1, num2) {
   return num1 - num2;
 }
 
-console.log([20, 4, 15, 6].sort(numCompaer));
-
 const swap = (arr, idx1, idx2) => {
   [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
 };
